@@ -1,0 +1,155 @@
+/*
+Style the website you made last week using CSS with the following requirements:
+Use only external CSS file (no internal or inline styling)
+Every element must be styled.
+Create style rules using class, id, and element selectors.
+*/
+
+/*{
+    border: 1px solid red;
+}*/
+
+html {
+    font-family: fantasy, 'Trebuchet MS', sans-serif;
+    background: rgb(117, 104, 69)
+}
+body{
+   margin: 1rem 5rem
+}
+
+img {
+    border-radius: 2rem;
+    margin: 2rem;
+    box-shadow: 4px 4px 4px 1px rgba(0,0,0, .5);
+}
+/* Home page */
+h1 {
+text-align: center;
+filter:drop-shadow(2px 2px 1px black);
+color: goldenrod;
+}
+
+p {
+  font-size: 22px;
+  text-align: center;
+  color: goldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 1px black;
+}
+
+li {
+    font-size: 18px;
+    text-align: left;
+    color: goldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 1px black;
+}
+
+ul {
+    padding: 20px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    color: goldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 1px black;
+}
+
+tr:nth-child(odd){
+    background-color:rgb(7, 96, 112);
+}
+
+tr:hover {
+    background-color: rgb(0, 102, 255);
+}
+
+.img-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.link-div {
+    text-align: center;
+    color: rgb(197, 192, 188);
+}
+
+#carved-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+figcaption {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    color: rgb(197, 192, 188);
+    text-shadow: 2px 2px 1px black;
+}
+
+/*About Us page*/
+
+.banner-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.description-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(189, 87, 3);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+#pieces-are {
+    text-align: center;
+    font-style: italic;
+    font-size:larger;
+    color: rgb(20, 20, 99);
+    text-shadow:2px 2px 1px blanchedalmond;
+}
+
+
+.link2-div {
+    text-align: center;
+    color: rgb(0, 195, 255);
+}
+
+/* Contact Us */
+
+.info-div{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 1px rgb(10, 10, 10);
+    color:goldenrod;
+}
+
+.jwl-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link3-div {
+    text-align: center;
+    color: rgb(0, 195, 255);
+}
